@@ -1,2 +1,2 @@
 # gdev-extension-swipe
-Extension Swipe for GDevelop
+Extension Swipe for GDevelop 5
