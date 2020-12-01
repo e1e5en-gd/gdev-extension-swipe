@@ -1341,7 +1341,7 @@
               "parameters": [
                 "DirectionFor4",
                 "=",
-                "\"Direction for 4 parties: \" + ControlSwipe.Swipe::GetDirectionsFor4Parties()"
+                "\"Direction for 4 parties: \" + ControlSwipe.Swipe::Average4Direction()"
               ],
               "subInstructions": []
             },
@@ -1353,7 +1353,7 @@
               "parameters": [
                 "DirectionFor8",
                 "=",
-                "\"Direction for 8 parties: \" + ControlSwipe.Swipe::GetDirectionsFor8Parties()"
+                "\"Direction for 8 parties: \" + ControlSwipe.Swipe::Average8Direction()"
               ],
               "subInstructions": []
             },
@@ -1387,8 +1387,8 @@
               "parameters": [
                 "",
                 "Numeral1",
-                "ControlSwipe.Swipe::PointStartX()",
-                "ControlSwipe.Swipe::PointStartY()",
+                "ControlSwipe.Swipe::StartPointX()",
+                "ControlSwipe.Swipe::StartPointY()",
                 ""
               ],
               "subInstructions": []
@@ -1401,8 +1401,8 @@
               "parameters": [
                 "",
                 "Numeral2",
-                "ControlSwipe.Swipe::PointEndX()",
-                "ControlSwipe.Swipe::PointEndY()",
+                "ControlSwipe.Swipe::EndPointX()",
+                "ControlSwipe.Swipe::EndPointY()",
                 ""
               ],
               "subInstructions": []
@@ -1415,7 +1415,7 @@
               "parameters": [
                 "SwipeLinePoints.AX",
                 "=",
-                "ControlSwipe.Swipe::PointStartX()"
+                "ControlSwipe.Swipe::StartPointX()"
               ],
               "subInstructions": []
             },
@@ -1427,7 +1427,7 @@
               "parameters": [
                 "SwipeLinePoints.AY",
                 "=",
-                "ControlSwipe.Swipe::PointStartY()"
+                "ControlSwipe.Swipe::StartPointY()"
               ],
               "subInstructions": []
             },
@@ -1439,7 +1439,7 @@
               "parameters": [
                 "SwipeLinePoints.BX",
                 "=",
-                "ControlSwipe.Swipe::PointEndX()"
+                "ControlSwipe.Swipe::EndPointX()"
               ],
               "subInstructions": []
             },
@@ -1451,7 +1451,7 @@
               "parameters": [
                 "SwipeLinePoints.BY",
                 "=",
-                "ControlSwipe.Swipe::PointEndY()"
+                "ControlSwipe.Swipe::EndPointY()"
               ],
               "subInstructions": []
             },
